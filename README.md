@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## 成為初級資料分析師 | 資料分析師的工具箱
 
-You can use the [editor on GitHub](https://github.com/yaojenkuo/toolbox4da/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 簡介
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在[台灣大學資訊工程學系資訊系統訓練班](https://www.csie.ntu.edu.tw/train/)所開設的資料分析師的工具箱課程網頁，課程時數 10 小時。
 
-### Markdown
+<!--
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 評分標準
 
-```markdown
-Syntax highlighted code block
+- 一個作業的分數為 25 分
+- 70 分即可獲得證書，作業請上傳至 Google 表單
+- 作業繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
 
-# Header 1
-## Header 2
-### Header 3
+### 作業上傳表單
 
-- Bulleted
-- List
+- [321 期假日下午班](https://forms.gle/Pc2csi5X283urXwv7)
+- [319 期假日下午班](https://forms.gle/ymgTzpi758kKBBK97)
+- [315 期暑期密集班](https://forms.gle/wSPvWDXeMaJYAH4Q7)
+- [312 期假日下午班](https://forms.gle/xrh3SkSV9WszWdMm9)
+- [311 期假日下午班](https://forms.gle/m3C59C9saYFJSHfm7)
+- [309 期寒假密集班](https://goo.gl/forms/S2YXpZxn9JwH2e3E3)
+- [307 期平日夜間班](https://goo.gl/forms/ieo3plwIY8MIF5zm1)
 
-1. Numbered
-2. List
+-->
 
-**Bold** and _Italic_ and `Code` text
+### 課程互動頻道
 
-[Link](url) and ![Image](src)
-```
+<https://www.sli.do> 頻道代號：G442
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 課程大綱
 
-### Jekyll Themes
+- [關於](https://yaojenkuo.io/00-about.slides.html)
+- [設定我們的機器](01-setting-up-our-machine.slides.html)
+- [使用命令列](02-using-the-command-line.slides.html)
+- [標記式語言](03-markup-languages.slides.html)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yaojenkuo/toolbox4da/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<!--
 
-### Support or Contact
+### 延伸閱讀
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [進擊的資料科學](https://www.books.com.tw/products/0010827812)
+- [進擊的資料科學：網頁版](https://www.datainpoint.com/data-science-in-action/)
+- [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057)
+- [DataCamp](https://www.datacamp.com?tap_a=5644-dce66f&tap_s=194899-1fb421)
+
+-->
+
+### 近期課程錄影清單
+
+- [第 321 期 資料分析師的工具箱（假日專題班）]()
