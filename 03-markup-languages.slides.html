@@ -13215,6 +13215,7 @@ a.anchor-link {
 <li>什麼是標記式語言</li>
 <li>Markdown</li>
 <li>HTML</li>
+<li>CSS 與 Bootstrap</li>
 <li>隨堂練習</li>
 </ul>
 
@@ -13751,6 +13752,137 @@ Let's put aside the fact that you "**accidentally**" picked up my grand mother's
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="CSS-&#33287;-Bootstrap">CSS &#33287; Bootstrap<a class="anchor-link" href="#CSS-&#33287;-Bootstrap">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20160;&#40636;&#26159;-CSS">&#20160;&#40636;&#26159; CSS<a class="anchor-link" href="#&#20160;&#40636;&#26159;-CSS">&#182;</a></h2><blockquote><p>樣式表（Cascading Style Sheets，CSS）是一種用來為 HTML 添加樣式（字型、間距和顏色等）的電腦語言，由 W3C 定義和維護。</p>
+</blockquote>
+<p>Source: <a href="https://zh.wikipedia.org/zh-tw/%E5%B1%82%E5%8F%A0%E6%A0%B7%E5%BC%8F%E8%A1%A8">https://zh.wikipedia.org/zh-tw/%E5%B1%82%E5%8F%A0%E6%A0%B7%E5%BC%8F%E8%A1%A8</a></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#22312;-HTML-&#23384;&#22312;&#30340;&#36039;&#26009;&#22846;&#20013;&#26032;&#22686;&#21103;&#27284;&#21517;&#28858;-.css-&#30340;&#27284;&#26696;">&#22312; HTML &#23384;&#22312;&#30340;&#36039;&#26009;&#22846;&#20013;&#26032;&#22686;&#21103;&#27284;&#21517;&#28858; <code>.css</code> &#30340;&#27284;&#26696;<a class="anchor-link" href="#&#22312;-HTML-&#23384;&#22312;&#30340;&#36039;&#26009;&#22846;&#20013;&#26032;&#22686;&#21103;&#27284;&#21517;&#28858;-.css-&#30340;&#27284;&#26696;">&#182;</a></h2><div class="highlight"><pre><span></span>touch style.css
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20006;&#19988;&#22312;-HTML-&#25991;&#26412;&#30340;-&lt;head&gt;&lt;/head&gt;-&#27161;&#35352;&#20043;&#38291;&#24341;&#20837;-CSS">&#20006;&#19988;&#22312; HTML &#25991;&#26412;&#30340; <code>&lt;head&gt;&lt;/head&gt;</code> &#27161;&#35352;&#20043;&#38291;&#24341;&#20837; CSS<a class="anchor-link" href="#&#20006;&#19988;&#22312;-HTML-&#25991;&#26412;&#30340;-&lt;head&gt;&lt;/head&gt;-&#27161;&#35352;&#20043;&#38291;&#24341;&#20837;-CSS">&#182;</a></h2><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;style.css&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span><span class="p">&gt;</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="CSS-&#30340;&#25776;&#23531;&#35215;&#21063;">CSS &#30340;&#25776;&#23531;&#35215;&#21063;<a class="anchor-link" href="#CSS-&#30340;&#25776;&#23531;&#35215;&#21063;">&#182;</a></h2><ul>
+<li>選擇器</li>
+<li>屬性</li>
+<li>屬性值</li>
+</ul>
+<p><img src="https://i.imgur.com/MNSO2qH.png?1" alt="Imgur"></p>
+<p>Source: <a href="https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/CSS_basics">https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/CSS_basics</a></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20197;&#27161;&#35352;&#20316;&#36984;&#25799;&#22120;&#65288;&#22810;&#38917;&#65289;">&#20197;&#27161;&#35352;&#20316;&#36984;&#25799;&#22120;&#65288;&#22810;&#38917;&#65289;<a class="anchor-link" href="#&#20197;&#27161;&#35352;&#20316;&#36984;&#25799;&#22120;&#65288;&#22810;&#38917;&#65289;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">//</span><span class="nt">style</span><span class="p">.</span><span class="nc">css</span>
+<span class="nt">h2</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20197;-id-&#20316;&#36984;&#25799;&#22120;&#65288;&#21934;&#38917;&#65289;">&#20197; id &#20316;&#36984;&#25799;&#22120;&#65288;&#21934;&#38917;&#65289;<a class="anchor-link" href="#&#20197;-id-&#20316;&#36984;&#25799;&#22120;&#65288;&#21934;&#38917;&#65289;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="c">&lt;!-- index.html --&gt;</span>
+<span class="p">&lt;</span><span class="nt">h2</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;summary&quot;</span><span class="p">&gt;</span>Data Science Specialization<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="o">//</span><span class="nt">style</span><span class="p">.</span><span class="nc">css</span>
+<span class="p">#</span><span class="nn">summary</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">blue</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20197;-class-&#20316;&#36984;&#25799;&#22120;&#65288;&#22810;&#38917;&#65289;">&#20197; class &#20316;&#36984;&#25799;&#22120;&#65288;&#22810;&#38917;&#65289;<a class="anchor-link" href="#&#20197;-class-&#20316;&#36984;&#25799;&#22120;&#65288;&#22810;&#38917;&#65289;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="c">&lt;!-- index.html --&gt;</span>
+<span class="p">&lt;</span><span class="nt">h2</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;experience&quot;</span><span class="p">&gt;</span>Employment<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+<span class="c">&lt;!-- ... --&gt;</span>
+<span class="p">&lt;</span><span class="nt">h2</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;experience&quot;</span><span class="p">&gt;</span>Lecturer<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+<span class="c">&lt;!-- ... --&gt;</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="o">//</span><span class="nt">style</span><span class="p">.</span><span class="nc">css</span>
+<span class="p">.</span><span class="nc">experience</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">green</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20160;&#40636;&#26159;-Bootstrap">&#20160;&#40636;&#26159; Bootstrap<a class="anchor-link" href="#&#20160;&#40636;&#26159;-Bootstrap">&#182;</a></h2><blockquote><p>Bootstrap是一組用於網站和網路應用程式開發的開源前端框架，包括 HTML、CSS 及 JavaScript 的框架，提供字體排印、表單、按鈕、導航及其他各種元件及 Javascript 擴充套件，旨在使動態網頁的開發更加容易。</p>
+</blockquote>
+<p>Source: <a href="https://zh.wikipedia.org/zh-tw/Bootstrap">https://zh.wikipedia.org/zh-tw/Bootstrap</a></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#22312;-HTML-&#25991;&#26412;&#30340;-&lt;head&gt;&lt;/head&gt;-&#27161;&#35352;&#20043;&#38291;&#24341;&#20837;-Bootstrap">&#22312; HTML &#25991;&#26412;&#30340; <code>&lt;head&gt;&lt;/head&gt;</code> &#27161;&#35352;&#20043;&#38291;&#24341;&#20837; Bootstrap<a class="anchor-link" href="#&#22312;-HTML-&#25991;&#26412;&#30340;-&lt;head&gt;&lt;/head&gt;-&#27161;&#35352;&#20043;&#38291;&#24341;&#20837;-Bootstrap">&#182;</a></h2><p>從網址引入</p>
+<div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&quot;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM&quot;</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">&quot;anonymous&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+<p>Source: <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">https://getbootstrap.com/docs/4.3/getting-started/introduction/</a></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23559;&#20449;&#31665;&#12289;&#25163;&#27231;&#33287;&#20316;&#21697;&#38598;&#32178;&#22336;&#27700;&#24179;&#22343;&#20998;">&#23559;&#20449;&#31665;&#12289;&#25163;&#27231;&#33287;&#20316;&#21697;&#38598;&#32178;&#22336;&#27700;&#24179;&#22343;&#20998;<a class="anchor-link" href="#&#23559;&#20449;&#31665;&#12289;&#25163;&#27231;&#33287;&#20316;&#21697;&#38598;&#32178;&#22336;&#27700;&#24179;&#22343;&#20998;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;row&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;col-md-4&quot;</span><span class="p">&gt;&lt;</span><span class="nt">span</span><span class="p">&gt;</span>tonykuoyj@gmail.com<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;col-md-4&quot;</span><span class="p">&gt;&lt;</span><span class="nt">span</span><span class="p">&gt;</span>+886933223818<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;col-md-4&quot;</span><span class="p">&gt;&lt;</span><span class="nt">span</span><span class="p">&gt;</span>https://www.datainpoint.com<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2>
 </div>
 </div>
@@ -13758,7 +13890,7 @@ Let's put aside the fact that you "**accidentally**" picked up my grand mother's
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#19968;&#38913;&#23653;&#27511;&#65288;One-page-CV&#65289;">&#19968;&#38913;&#23653;&#27511;&#65288;One-page CV&#65289;<a class="anchor-link" href="#&#19968;&#38913;&#23653;&#27511;&#65288;One-page-CV&#65289;">&#182;</a></h2><p><a href="https://jsfiddle.net/tonykuoyj/2q1jhtvz/25/">https://jsfiddle.net/tonykuoyj/2q1jhtvz/25/</a></p>
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#19968;&#38913;&#23653;&#27511;&#65288;One-page-CV&#65289;">&#38568;&#22530;&#32244;&#32722;&#65306;&#19968;&#38913;&#23653;&#27511;&#65288;One-page CV&#65289;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#19968;&#38913;&#23653;&#27511;&#65288;One-page-CV&#65289;">&#182;</a></h2><p><a href="https://jsfiddle.net/tonykuoyj/2q1jhtvz/25/">https://jsfiddle.net/tonykuoyj/2q1jhtvz/25/</a></p>
 
 </div>
 </div>
