@@ -34,6 +34,7 @@
 - [設定我們的機器](01-setting-up-our-machine.slides.html)
 - [使用命令列](02-using-the-command-line.slides.html)
 - [標記式語言](03-markup-languages.slides.html)
+- [git 與 GitHub](04-git-and-github.slides.html)
 
 <!--
 
@@ -48,4 +49,4 @@
 
 ### 近期課程錄影清單
 
-- [第 321 期 資料分析師的工具箱（假日專題班）]()
+- [第 321 期 資料分析師的工具箱（假日專題班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVbGSEnsPyausHK2k75eQuU)
