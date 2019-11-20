@@ -35,6 +35,7 @@
 - [使用命令列](02-using-the-command-line.slides.html)
 - [標記式語言](03-markup-languages.slides.html)
 - [git 與 GitHub](04-git-and-github.slides.html)
+- [創建作品集網站](05-build-portfolio-sites.slides.html)
 
 <!--
 
