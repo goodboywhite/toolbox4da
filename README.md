@@ -36,6 +36,7 @@
 - [標記式語言](03-markup-languages.slides.html)
 - [git 與 GitHub](04-git-and-github.slides.html)
 - [創建作品集網站](05-build-portfolio-sites.slides.html)
+- [創建適合學寫程式的筆記本](06-jupyter-kernels-for-learning.slides.html)
 
 <!--
 
