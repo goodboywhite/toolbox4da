@@ -50,5 +50,5 @@
 
 ### 近期課程錄影清單
 
-- [第 322 期 資料分析師的工具箱（假日專題班）]()
+- [第 322 期 資料分析師的工具箱（假日專題班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVsy0B6u6pWVQJJnOaQYXLd)
 - [第 321 期 資料分析師的工具箱（假日專題班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVbGSEnsPyausHK2k75eQuU)
