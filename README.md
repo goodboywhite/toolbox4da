@@ -6,6 +6,10 @@
 
 Contact me: <tonykuoyj@gmail.com>
 
+### 326 期上課時間調整公告
+
+因應清明連假，4/4（六）、4/5（日）不上課。
+
 ### 評分標準
 
 本課程為初階課程，旨在協助未來想開始學習資料分析、網站工程或程式設計的初學者入門，參加學員均可獲得通過證書。
@@ -26,6 +30,12 @@ Contact me: <tonykuoyj@gmail.com>
 ### 課程互動頻道
 
 <https://www.sli.do> 頻道代號：G442
+
+### WIFI
+
+- CSIE_guest
+- Account: guest_SZZMK
+- Password: F7JN8EH4
 
 ### 課程大綱
 
@@ -50,5 +60,6 @@ Contact me: <tonykuoyj@gmail.com>
 
 ### 近期課程錄影清單
 
+- [第 326 期 資料分析師的工具箱（假日專題班）]()
 - [第 322 期 資料分析師的工具箱（假日專題班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVsy0B6u6pWVQJJnOaQYXLd)
 - [第 321 期 資料分析師的工具箱（假日專題班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVbGSEnsPyausHK2k75eQuU)
